@@ -1,0 +1,110 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    max-width: 500px;
+    margin: auto auto;
+    background-color: #c3fae8;
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+}
+
+.header {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.yoda-container {
+    text-align: center;
+}
+
+.yoda-img {
+    width: 8rem;
+}
+
+.heading-bottom {
+    margin-top: -25px;
+}
+
+textarea {
+    height: 10vh;
+    width: 80%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    outline: none;
+    resize: none;
+    border-radius: 0.5rem;
+    border: 0.5px solid #099268;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.special {
+    color: #099268;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-translate {
+    background-color: #099268;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 9px;
+    font-weight: bold;
+    margin: 0px auto;
+
+    /* for the class btn itself */
+    border: none;
+    cursor: pointer;
+
+    /* put transition in original "state" */
+    /* transition: background-color 0.3s; */
+    transition: all 0.3s;
+}
+
+.output-text {
+    text-align: center;
+}
+
+.footer {
+    background-color: #099268;
+    padding: 1.5rem;
+    text-align: center;
+    color: #fff;
+    border-top-right-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-yoda-img {
+    width: 2.5rem;
+}
+
+.footer-msg {
+    color: #fff;
+}
