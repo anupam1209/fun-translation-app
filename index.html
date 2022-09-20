@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>speak YODA</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div>
+                <h1 class="center-text">say hi to</h1>
+                <h1 class="heading-bottom"><span class="special">YODA</span></h1>
+            </div>
+            <div class="yoda-container">
+                <img class="yoda-img" src="images/yoda.png" alt="" />
+            </div>
+        </div>
+
+        <textarea id="txt-input" style="display: block; margin-bottom: 2rem"
+            placeholder="put your sentence in English here and we will convert it into YODA" name="" cols="40"
+            rows="5"></textarea>
+        <div class="btn-container">
+            <button style="margin-bottom: 2rem" id="btn-translate" class="btn-translate">
+                Translate
+            </button>
+        </div>
+
+        <div class="output-text">Output will come here👇</div>
+        <!-- <div id="output"></div> -->
+        <textarea id="output" style="display: block; margin-bottom: 2rem" name="" cols="40" rows="5"></textarea>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-header">
+            <div class="footer-header">about</div>
+            <img class="footer-yoda-img" src="images/about.png" alt="" />
+        </div>
+        <p class="footer-msg">Yoda often orders sentences as Object-Subject-Verb, split verbs, switches entire phrases
+            and sometimes uses sentences that are different from his normal syntax! Have fun and may the force be with
+            you! Yoda is a registered trademark of Disney</p>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
