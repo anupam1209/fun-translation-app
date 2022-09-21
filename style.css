@@ -93,6 +93,7 @@ textarea {
     color: #fff;
     border-top-right-radius: 1rem;
     margin-top: 3rem;
+    bottom: 0;
 }
 
 .footer-header {
